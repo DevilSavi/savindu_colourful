@@ -1,0 +1,70 @@
+.theme-light {
+	--bg-image: url("../img/bg2.jpg");
+	--text-color: white;
+	--text-color1: white;
+	--btn-color: blue;
+	--btnh-color: lightblue;
+	--btn2-color: purple;
+	--btnh2-color: pink;
+	--hr-color: linear-gradient(to right,  #d534eb,blue);
+	--grayscale: 0%;
+	--border: 2px solid blue;
+	--emoji: url("../img/sun2.png");
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+	width: 110px;
+    font-family: nunito;
+    cursor: pointer;
+	background-color:var(--btn2-color);
+	box-shadow: 0 5px 10px var(--btnh2-color);
+}
+button.btn:hover{
+	border: none;
+	background-color:var(--btnh2-color);
+	width:118px;
+	color: black;
+	border:5px;
+	box-shadow: 0 5px 10px var(--btn2-color);
+}
+button.btn2{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+	width: 35vh;
+    font-family: nunito;
+    cursor: pointer;
+	background-color:var(--btn2-color);
+	box-shadow: 0 5px 10px var(--btnh2-color);
+}
+button.btn2:hover{
+	border: none;
+	background-color:var(--btnh2-color);
+	width: 36vh;
+	color: black;
+	border:5px;
+	box-shadow: 0 5px 10px var(--btn2-color);
+}
+
+input[type=search] {
+	width: 30%;
+	box-sizing: border-box;
+	border: 2px solid var(--btn-color);
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('../img/searchicon.jpg');
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 12px 20px 12px 40px;
+	transition: width 0.4s ease-in-out;
+}
+input[type=search]:focus {
+	width: 50%;
+}

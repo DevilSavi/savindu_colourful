@@ -1,0 +1,34 @@
+.theme-light {
+	--bg-image: url("../img/bg4.jpg");
+	--text-color: white;
+	--text-color1: white;
+	--text-color2: black;
+	--btn-color: blue;
+	--btnh-color: red;
+	--btn2-color: red;
+	--btnh2-color: blue;
+	--hr-color: linear-gradient(to right, transparent,red,blue,transparent );
+	--grayscale: 0%;
+	--border: 2px solid blue;
+	--emoji: url("../img/sun2.png");
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+	width: 35vh;
+    font-family: nunito;
+    cursor: pointer;
+	color: var(--text-color2);
+	background-color: var(--btn2-color);
+	box-shadow: -5px 5px 10px var(--btnh2-color);
+}
+button.btn:hover{
+	background-color: var(--btnh2-color);
+	width:36vh;
+	color: var(--text-color1);
+	border:5px;
+	box-shadow: -5px 5px 10px var(--btnh-color);
+}
